@@ -96,9 +96,9 @@
 
     <url>https://wiki.jenkins.io/display/JENKINS/Sensedia+Api+Platform+Plugin</url>
     <scm>
-        <connection>scm:git:git://github.com/jenkinsci/sensedia-api-platform-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/sensedia-api-platform-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/sensedia-api-platform-plugin</url>
+      <connection>scm:git:ssh://github.com/jenkinsci/sensedia-api-platform-plugin.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/jenkinsci/sensedia-api-platform-plugin.git</developerConnection>
+      <url>https://github.com/jenkinsci/sensedia-api-platform-plugin</url>
     </scm>
 
     <repositories>
