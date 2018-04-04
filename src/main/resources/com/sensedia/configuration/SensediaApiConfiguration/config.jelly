@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+    <f:section title="Sensedia Api Platform Configuration">
+        <f:entry field="urlManager" title="URL Manager API" description="URL to call Manager Apis. Example: http://localhost:9090/api-manager/api/v3" >
+            <f:textbox/>
+        </f:entry>
+        <f:entry field="tokenManager" title="Integration Token" description="API Manager integration token" >
+            <f:textbox/>
+        </f:entry>
+    </f:section>
+</j:jelly>
