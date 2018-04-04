@@ -8,7 +8,7 @@
         <relativePath />
     </parent>
     <artifactId>sensedia-api-platform</artifactId>
-    <version>1.1</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <properties>
         <!-- Baseline Jenkins version you use to build the plugin. Users must have this version or newer to run. -->
@@ -99,18 +99,17 @@
         <connection>scm:git:git://github.com/jenkinsci/sensedia-api-platform-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:jenkinsci/sensedia-api-platform-plugin.git</developerConnection>
         <url>https://github.com/jenkinsci/sensedia-api-platform-plugin</url>
-      <tag>sensedia-api-platform-1.1</tag>
-  </scm>
+    </scm>
 
     <repositories>
         <repository>
-            <id>maven.jenkins-ci.org</id>
+            <id>repo.jenkins-ci.org</id>
             <url>https://repo.jenkins-ci.org/public/</url>
         </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
-            <id>maven.jenkins-ci.org</id>
+            <id>repo.jenkins-ci.org</id>
             <url>https://repo.jenkins-ci.org/public/</url>
         </pluginRepository>
     </pluginRepositories>
